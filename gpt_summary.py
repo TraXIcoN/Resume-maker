@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "YOUR OPENAI KEY"
+openai.api_key = "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"
 
 def get_summary_for_resume(description):
     response = openai.Completion.create(
